@@ -1,0 +1,11 @@
+{
+    "name": "text_based_adventure_engine"
+  , "version": "0.0.1"
+  , "description": "text based adventure engine"
+  , "keywords": ["game","engine","text"]
+  , "author": "Paul Hayes <fluidchaos@gmail.com>"
+  , "repository": { "type": "git", "url": "https://github.com/paulhayes/text_based_adventure_engine.git" }  
+  , "dependencies": { "signals": "1.0.x" }
+  , "engines": { "node": ">= 0.10.x" }
+  , "main" : "lib/main.js"
+}
