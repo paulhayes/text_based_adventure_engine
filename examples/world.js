@@ -1,9 +1,9 @@
-var Room = require('./room');
-var Door = require('./door');
-var Television = require('./television');
-var Clock = require('./clock');
-var Dice = require('./dice');
-
+var engine = require('../lib/main');
+var Room = engine.Room;
+var Door = engine.Door;
+var Television = engine.Television;
+var Clock = engine.Clock;
+var Dice = engine.Dice;
 
 var World = function(){
 

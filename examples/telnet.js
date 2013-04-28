@@ -1,8 +1,7 @@
-require('./coreextension');
 
 var telnet = require('wez-telnet');
 var Signal = require('signals').Signal;     
-var Player = require('./player');
+var Player = require('../lib/main').Player;
 var World = require('./world');
 
 var world = new World();
