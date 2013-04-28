@@ -13,7 +13,7 @@ var s = new telnet.Server(function (client) {
 
 	console.log("connected term=%s %dx%d", client.term, client.windowSize[0], client.windowSize[1]);
 
-	client.on('data', function (buf) { player.onData(buf, client) });
+	client.on('data', function (buf) { player.onData(buf) });
 	client.on('resize', function (width, height) {
 	  console.log("resized to %dx%d", width, height);
 	});
