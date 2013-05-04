@@ -13,7 +13,8 @@
     "url": "https://github.com/paulhayes/text_based_adventure_engine.git"
   },
   "dependencies": {
-    "signals": "1.0.x"
+    "signals": "1.0.x",
+    "jshashtable": "~0.1.0"
   },
   "engines": {
     "node": ">= 0.10.x"
@@ -24,7 +25,9 @@
   "directories": {
     "example": "examples"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "wez-telnet": "~0.1.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
