@@ -8,7 +8,8 @@ var world = new World();
 
 var s = new telnet.Server(function (client) {
 	// I am the connection callback
-	var player = new Player(function(msg){ client.write(msg) });
+	var player = new Player();
+	player.outputSignal.add(function(msg){ client.write(msg) });
 	world.addPlayer(player);
 
 	console.log("connected term=%s %dx%d", client.term, client.windowSize[0], client.windowSize[1]);
