@@ -25,11 +25,12 @@
   "directories": {
     "example": "examples"
   },
-  "devDependencies": {
-    "wez-telnet": "~0.1.1"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "APACHE-2.0"
+  "license": "APACHE-2.0",
+  "optionalDependencies": {
+    "wez-telnet": "~0.1.1"
+  }
 }
