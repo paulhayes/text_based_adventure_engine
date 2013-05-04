@@ -1,13 +1,13 @@
 {
   "name": "text_based_adventure_engine",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "text based adventure engine",
   "keywords": [
     "game",
     "engine",
     "text"
   ],
-  "author": "Paul Hayes <fluidchaos@gmail.com>",
+  "author": "Paul Hayes <paul.hayes@entropedia.co.uk>",
   "repository": {
     "type": "git",
     "url": "https://github.com/paulhayes/text_based_adventure_engine.git"
@@ -28,5 +28,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "BSD"
+  "license": "APACHE-2.0"
 }
